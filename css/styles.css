@@ -361,6 +361,7 @@ img {
   text-align: center;
   width: 100vw;
   background-color: #45388a;
+  margin-top: 5px;
 }
 
 .cards-withmargin {
@@ -376,7 +377,7 @@ img {
 
 .skill {
   font-weight: 300;
-  width: 150px;
+  width: 200px;
   height: 250px;
   padding-left: 15px;
   padding-right: 15px;
@@ -388,6 +389,10 @@ img {
   position: relative;
   top: -110px;
   margin-bottom: -30px;
+}
+
+.caps {
+  margin-top: auto;
 }
 
 #services {
@@ -486,7 +491,7 @@ img {
 .contact-column {
   display: flex;
   flex-direction: column;
-  height: 200px;
+  height: 150px;
   text-align: left;
   align-content: space-between;
   justify-content: space-between;
@@ -522,35 +527,14 @@ img {
   width: 100%;
 }
 
-/* -------- FOOTER  -------- */
-#one__footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.one_arr {
-  text-align: center;
-}
-
 body {
   background-color: #FFF;
   margin: 0;
   font-family: "Open Sans", sans-serif;
-}
-
-h1,
-h2,
-h3 {
-  white-space: -moz-pre-wrap;
-  /* Firefox */
-  white-space: -o-pre-wrap;
-  /* Opera */
-  white-space: pre-wrap;
-  /* Chrome */
-  word-wrap: break-word;
-  /* IE */
-  white-space: nowrap;
-  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
