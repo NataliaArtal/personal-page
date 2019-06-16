@@ -68,10 +68,6 @@ a {
   color: #FFF;
 }
 
-.block-lgt-grey {
-  background-color: #f3f3f3;
-}
-
 .block-content {
   padding-top: 14.28571vw;
   padding-bottom: 14.28571vw;
@@ -205,6 +201,15 @@ a {
 
 .block-centered {
   text-align: center;
+}
+
+#intro {
+  background-color: #f3f3f3;
+}
+
+.pc {
+  widows: 100px;
+  height: 100px;
 }
 
 .intro__portrait {
@@ -439,7 +444,6 @@ img {
   margin-left: 5%;
   margin-right: 15%;
   letter-spacing: 0.1em;
-  background-color: #f3f3f3;
 }
 
 .service__icon {
@@ -456,17 +460,14 @@ img {
   font-size: 2em;
   font-weight: 300;
   margin-bottom: 24px;
-  background-color: #f3f3f3;
 }
 
 .p-descr {
   font-size: 1.2em;
-  background-color: #f3f3f3;
 }
 
 .service {
   width: 100%;
-  background-color: #f3f3f3;
 }
 
 #likes {
