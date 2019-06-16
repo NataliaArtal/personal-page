@@ -274,6 +274,14 @@ img {
   .portf__button {
     width: 42.85714vw;
   }
+
+  .cards-withmargin {
+    width: 100vw;
+  }
+
+  .service__icon {
+    object-fit: cover;
+  }
 }
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
   .card {
@@ -291,6 +299,18 @@ img {
   .portf__button {
     width: 21.42857vw;
   }
+
+  .cards-withmargin {
+    width: 50vw;
+  }
+
+  .service {
+    height: 50vw;
+  }
+
+  .service__icon {
+    object-fit: cover;
+  }
 }
 @media only screen and (min-width: 1001px) {
   .card {
@@ -307,6 +327,18 @@ img {
 
   .portf__button {
     width: 14.28571vw;
+  }
+
+  .cards-withmargin {
+    width: 33.33vw;
+  }
+
+  .service {
+    height: 33.33vw;
+  }
+
+  .service__icon {
+    object-fit: cover;
   }
 }
 .card:hover {
