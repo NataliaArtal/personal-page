@@ -270,6 +270,11 @@
     .card {
       width: 100vw;
     }
+
+    .card:hover {
+      color: #FFF;
+    }
+
     .card__frame {
       height: 100vw;
     }
@@ -284,8 +289,10 @@
       width: 100vw;
     }
 
-    .service__icon {
-      object-fit: cover;
+    #service {
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
     }
   }
   
@@ -293,6 +300,11 @@
     .card {
       width: 50vw;
     }
+
+    .card:hover {
+      color: #FFF;
+    }
+
     .card__frame {
       height: 50vw;
     }
@@ -304,15 +316,12 @@
     }
 
     .cards-withmargin {
-      width: 50vw;
+      width: 100vw;
     }
 
     .service {
-      height: 50vw;
-    }
-
-    .service__icon {
-      object-fit: cover;
+      height: auto;
+      width: 100vw;
     }
   }
   
@@ -320,6 +329,11 @@
     .card {
       width: 33.33vw;
     }
+
+    .card:hover {
+      color: #FFF;
+    }
+
     .card__frame {
       height: 33.33vw;
     }
@@ -336,10 +350,6 @@
 
     .service {
       height: 33.33vw;
-    }
-
-    .service__icon {
-      object-fit: cover;
     }
 
   }
@@ -431,16 +441,19 @@
   }
   
   #services {
-    width: 100%;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 15%;
     letter-spacing: .1em;
   }
 
   .service__icon {
-      width: 100%;
+    width: 100%;
+    object-fit: cover;
   }
   
   .cards-services {
-    
+    width: 100%;
     text-align: center;
   }
   
@@ -456,8 +469,6 @@
   
   .service {
     width: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
   }
   
   #likes {

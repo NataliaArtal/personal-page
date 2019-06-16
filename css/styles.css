@@ -263,6 +263,10 @@ img {
     width: 100vw;
   }
 
+  .card:hover {
+    color: #FFF;
+  }
+
   .card__frame {
     height: 100vw;
   }
@@ -279,13 +283,19 @@ img {
     width: 100vw;
   }
 
-  .service__icon {
-    object-fit: cover;
+  #service {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
   .card {
     width: 50vw;
+  }
+
+  .card:hover {
+    color: #FFF;
   }
 
   .card__frame {
@@ -301,20 +311,21 @@ img {
   }
 
   .cards-withmargin {
-    width: 50vw;
+    width: 100vw;
   }
 
   .service {
-    height: 50vw;
-  }
-
-  .service__icon {
-    object-fit: cover;
+    height: auto;
+    width: 100vw;
   }
 }
 @media only screen and (min-width: 1001px) {
   .card {
     width: 33.33vw;
+  }
+
+  .card:hover {
+    color: #FFF;
   }
 
   .card__frame {
@@ -335,10 +346,6 @@ img {
 
   .service {
     height: 33.33vw;
-  }
-
-  .service__icon {
-    object-fit: cover;
   }
 }
 .card:hover {
@@ -428,15 +435,19 @@ img {
 }
 
 #services {
-  width: 100%;
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 15%;
   letter-spacing: 0.1em;
 }
 
 .service__icon {
   width: 100%;
+  object-fit: cover;
 }
 
 .cards-services {
+  width: 100%;
   text-align: center;
 }
 
@@ -452,8 +463,6 @@ img {
 
 .service {
   width: 100%;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 #likes {
