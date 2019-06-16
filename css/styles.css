@@ -439,6 +439,7 @@ img {
   margin-left: 5%;
   margin-right: 15%;
   letter-spacing: 0.1em;
+  background-color: #f3f3f3;
 }
 
 .service__icon {
@@ -455,14 +456,17 @@ img {
   font-size: 2em;
   font-weight: 300;
   margin-bottom: 24px;
+  background-color: #f3f3f3;
 }
 
 .p-descr {
   font-size: 1.2em;
+  background-color: #f3f3f3;
 }
 
 .service {
   width: 100%;
+  background-color: #f3f3f3;
 }
 
 #likes {
